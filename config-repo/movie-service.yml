@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cinemax_movie_db
+    username: postgres
+    password: rootpassword
+
+movie:
+  catalog:
+    cache-ttl-minutes: 60
+
+feature:
+  recommendation-engine:
+    enabled: true

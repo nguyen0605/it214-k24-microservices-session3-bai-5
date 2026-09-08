@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cinemax_booking_db
+    username: postgres
+    password: rootpassword
+
+booking:
+  seat-hold:
+    timeout-seconds: 300
+
+feature:
+  instant-discount:
+    enabled: true

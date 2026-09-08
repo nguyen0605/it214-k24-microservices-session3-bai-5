@@ -1,0 +1,18 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cinemax_payment_db
+    username: postgres
+    password: rootpassword
+
+payment:
+  gateway:
+    vnpay:
+      timeout-ms: 5000
+    max-retry: 3
+
+feature:
+  crypto-payment:
+    enabled: false

@@ -1,0 +1,10 @@
+logging:
+  level:
+    com.cinema: DEBUG
+    org.springframework.cloud: INFO
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,refresh,env

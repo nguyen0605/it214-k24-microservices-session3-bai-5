@@ -1,0 +1,16 @@
+server:
+  port: 8083
+
+spring:
+  mail:
+    host: smtp.cinemax.com
+    port: 587
+
+notification:
+  sms:
+    provider-url: https://api.sms-brandname.vn
+  max-retry-attempts: 3
+
+feature:
+  async-email-queue:
+    enabled: true
